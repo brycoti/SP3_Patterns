@@ -6,7 +6,7 @@ $tigre2 = Tigger::getInstance();
 $tigre3 = Tigger::getInstance();
 
 if (($tigre3 == $tigre1) && ($tigre1 == $tigre2) && ($tigre2 == $tigre3)){
-    echo "Todos los tigres somos el mismo Singleton";
+    echo "Todos los tigres somos el mismo Singleton. ";
 } else {
     echo "No somos el mismo Singleton";
 }

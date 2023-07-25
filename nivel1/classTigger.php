@@ -16,7 +16,7 @@ public static function getInstance() {
 }
 
 public function roar() {
-        echo "Grrr!".PHP_EOL;
+        echo "Grrr!! ".PHP_EOL;
         self::$contador++;
 }
 
