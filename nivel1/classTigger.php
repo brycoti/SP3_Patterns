@@ -5,10 +5,8 @@ private static $instance = null;
 private static $contador = 0;
 
 private function __construct() {
-        echo "Building character...".PHP_EOL;
+        echo "La nueva instancia de Tigre se está realizando...".PHP_EOL;
 }
-
-private function __clone() {}
 
 public static function getInstance() {
     if (!isset(self::$instance)) {
@@ -23,7 +21,7 @@ public function roar() {
 }
 
 public static function getCounter() {
-   echo "Ha rugido " . self::$contador++ . " veces".PHP_EOL;
+   echo "Ha rugido " . self::$contador . " veces".PHP_EOL;
 }
 
 }
